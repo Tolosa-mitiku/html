@@ -31,39 +31,43 @@
         <table>
             <tr>
         <td><label for="fname">First Name: </label></td>
-        <td><input type="text" name="fname" id="fname"></td>
+        <td><input type="text" name="fname" id="fname" required pattern="[A-Za-z]{4,10}" title="4 to 10 lowercase letters"></td>
             </tr>
             <tr>
         <td><label for="lname">Last Name: </label></td>
-        <td><input type="text" name="lname" id="lname"></td>
+        <td><input type="text" name="lname" id="lname" required pattern="[A-Za-z]{4,10}" title="4 to 10 lowercase letters"></td>
             </tr>
             <tr>
         <td><label for="email">Email: </label></td>
-        <td><input type="email" name="email" id="email"></td>
+        <td><input type="email" name="email" id="email" required></td>
+            </tr>
+            <tr>
+        <td><label for="password">Password: </label></td>
+        <td><input type="password" name="pswrd" id="pswrd" required pattern="[A-Za-z\d$]{8,15}" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" title="Enter a password with minimmum length of 8."></td>
             </tr>
             <tr>
         <td><label for="phone">phone number: </label></td>
-        <td><input type="tel" name="tel" id="phone"></td>
+        <td><input type="tel" name="tel" id="phone" required></td>
             </tr>
             <tr>
-        <td><label for="phone">Age: </label></td>
-        <td><input type="number" name="age" id="age" min="1" max="120" step="1"></td>
+        <td><label for="age">Age: </label></td>
+        <td><input type="number" name="age" id="age" min="1" max="120" step="1" required></td>
             </tr>
             <tr>
         <td>Continent: </td>
         <td><select name="country" id="">
-        <option value="Asia">Asia</option>
+        <option selected value="Asia">Asia</option>
         <option value="Africa">Africa</option value="Africa">
         <option value="America">america</option>
     </select></td>
             </tr>
             <tr>
         <td><label for="color">Frequently observed color: </label></td>
-        <td><input type="color" name="color" id="color"></td>
+        <td><input type="color" name="color" id="color" required></td>
             </tr>
             <tr>
         <td><label for="detail">what do you say???</label><br></td>
-        <td><textarea name="detail" id="detail" cols="30" rows="10"></textarea></td>
+        <td><textarea name="detail" id="detail" cols="30" rows="10" required></textarea></td>
             </tr>
             <tr>
         <td><input type="submit" name="submit"></td>
