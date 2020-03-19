@@ -1,0 +1,581 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color:skyblue;
+    margin: 10px;
+}
+.div1 {
+    border-bottom: solid;
+    border-top: solid;
+    padding: 2px;
+}
+#bigrect {
+    height: 250px;
+    width: 450px;
+}
+.red {
+    height: 7.7%;
+    background-color: #B22234;
+}
+.white {
+    height: 7.7%;
+    background-color: white;
+}
+#smallrect {
+    height: 135px;
+    width: 180px;
+    position: absolute;
+    font-size: 19px;
+    color: white;
+    line-height: 0.77;
+    background-color: #3C3B6E;
+}
+.sixstars {
+    width: 100%;
+    height: 9.09%;
+    text-align: center;
+    word-spacing: 10px;
+
+}
+.fivestars {
+    width: 100%;
+    height: 9.09%;
+    text-align: center;
+    word-spacing: 10px;
+
+}
+#america {
+    position: relative;
+}
+#ethiopia {
+    height: 250px;
+    width: 450px;
+    background-color: purple;
+}
+#green {
+    height: 33.33%;
+    background-color: green;
+}
+#yellow {
+    height: 33.33%;
+    background-color: yellow;
+    position: relative;
+}
+#red {
+    height: 33.33%;
+    background-color: red;
+}
+#circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    top: -33px;
+    left:150px;
+}
+#star {
+    top: 50px;
+    left: 150px;
+    font-size: 150px;
+    line-height: 1;
+    position: absolute;
+    top: -33px;
+    left:150px;
+    color: gold;
+}
+#div1 {
+    position: absolute;
+    top: 71px;
+    left: 117px;
+    font-size: 40px;
+    transform: rotate(110deg);
+    color: gold;
+}
+#div2 {
+    position: absolute;
+    top: 71px;
+    left: 24px;
+    font-size: 40px;
+    transform: rotate(-110deg);
+    color: gold;
+}
+#div3 {
+    position: absolute;
+    top: 94px;
+    left: 71px;
+    font-size: 40px;
+    transform: rotate(0deg);
+    color: gold;
+}
+#div4 {
+    position: absolute;
+    top: 23px;
+    left: 45px;
+    font-size: 40px;
+    transform: rotate(140deg);
+    color: gold;
+}
+#div5 {
+    position: absolute;
+    top: 23px;
+    left: 97px;
+    font-size: 40px;
+    transform: rotate(-140deg);
+    color: gold;
+}
+#tanzania {
+    height: 250px;
+    width: 450px;
+}
+#green2 {
+    height: 0px;
+    width: 0px;
+    border-left: 225px solid;
+    border-right: 225px solid;
+    border-top: 125px solid;
+    border-bottom: 125px solid;
+    border-top-color: green;
+    border-bottom-color: blue;
+    border-left-color: green;
+    border-right-color: blue;
+
+}
+#black {
+    border-top: 7px solid gold;
+    border-bottom: 7px solid gold;
+    background-color: black;
+    height: 30%;
+}
+#japan {
+    height: 250px;
+    width: 450px;
+    background-color: white;
+    position: relative;
+}
+#redcircle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#turkey {
+    height: 250px;
+    width: 450px;
+    background-color: red;
+    position: relative;
+}
+#largecircle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+#smallcircle {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 70px;
+    left: 145px;
+}
+#turkstar {
+    line-height: 0px;
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 230px;
+    transform: rotate(-20deg);
+
+}
+#kuwait {
+    height: 250px;
+    width: 450px;
+    position: relative;
+}
+#kugreen {
+    height: 33.33%;
+    background-color: green;
+}
+#kuwhite {
+    height: 33.33%;
+    background-color: white;
+}
+#kured {
+    height: 33.33%;
+    background-color: red;
+}
+#kublack {
+    height: 83px;
+    width: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    border-left: 150px solid;
+    border-right: 0px solid;
+    border-top: 83px solid;
+    border-bottom: 83px solid;
+    border-top-color: green;
+    border-bottom-color: red;
+    border-left-color: black;
+}
+#georgia {
+    position: relative;
+    height: 250px;
+    width: 450px;
+    background-color: white;
+}
+#georect1 {
+    position: absolute;
+    background-color: red;
+    height: 56px;
+    width: 450px;
+    top: 97px;
+}
+#georect2 {
+    position: absolute;
+    background-color: red;
+    height: 250px;
+    width: 56px;
+    left: 197px;
+}
+#georect3 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 33px;
+    left: 58px;
+    background-color: red;
+    border-left: 30px solid;
+    border-right: 30px solid;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-left-color: red;
+    border-right-color: red;
+}
+#georect4 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 33px;
+    left: 58px;
+    background-color: red;
+    border-left: 30px solid;
+    border-right: 30px solid;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-left-color: red;
+    border-right-color: red;
+}
+#georect5 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 33px;
+    right: 58px;
+    background-color: red;
+    border-left: 30px solid;
+    border-right: 30px solid;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-left-color: red;
+    border-right-color: red;
+}
+#georect6 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 33px;
+    right: 58px;
+    background-color: red;
+    border-left: 30px solid;
+    border-right: 30px solid;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-left-color: red;
+    border-right-color: red;
+}
+#georect7 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 8px;
+    left: 83px;
+    background-color: red;
+    border-left: 5px solid;
+    border-right: 5px solid;
+    border-top: 30px solid;
+    border-bottom: 30px solid;
+    border-top-color: red;
+    border-bottom-color: red;
+    border-left-color:  white;
+    border-right-color: white;
+}
+#georect8 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 8px;
+    left: 83px;
+    background-color: red;
+    border-left: 5px solid;
+    border-right: 5px solid;
+    border-top: 30px solid;
+    border-bottom: 30px solid;
+    border-top-color: red;
+    border-bottom-color: red;
+    border-left-color: white;
+    border-right-color: white;
+}
+#georect9 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 8px;
+    right: 83px;
+    background-color: red;
+    border-left: 5px solid;
+    border-right: 5px solid;
+    border-top: 30px solid;
+    border-bottom: 30px solid;
+    border-top-color: red;
+    border-bottom-color: red;
+    border-left-color: white;
+    border-right-color: white;
+}
+#georect10 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 8px;
+    right: 83px;
+    background-color: red;
+    border-left: 5px solid;
+    border-right: 5px solid;
+    border-top: 30px solid;
+    border-bottom: 30px solid;
+    border-top-color: red;
+    border-bottom-color: red;
+    border-left-color: white;
+    border-right-color: white;
+}
+#africarep {
+    height: 250px;
+    width: 450px;
+    position: relative;
+    background-color: white;
+}
+#africarep1 {
+    height: 25%;
+    width: 100%;
+    background-color: blue;
+}
+#africarep2 {
+    height: 25%;
+    width: 100%;
+    background-color: white;
+}
+#africarep3 {
+    height: 25%;
+    width: 100%;
+    background-color: green;
+}
+#africarep4 {
+    height: 25%;
+    width: 100%;
+    background-color: yellow;
+}
+#africarep5 {
+    position: absolute;
+    height: 250px;
+    width: 62px;
+    top: 0px;
+    left: 194px;
+    background-color: red;
+}
+#africarep6 {
+    position: absolute;
+    line-height: 60px;
+    font-size: 70px;
+    color: yellow;
+    top: 0px;
+    left: 40px;
+}
+#djibouti {
+    height: 250px;
+    width: 450px;
+    position: relative;
+}
+#dji1 {
+    height: 50%;
+    background-color: blue;
+}
+#dji2 {
+    height: 50%;
+    background-color: green;
+}
+#dji3 {
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    border-left: 225px solid;
+    border-right: 0px solid;
+    border-top: 125px solid;
+    border-bottom: 125px solid;
+    border-top-color: blue;
+    border-bottom-color: green;
+    border-left-color: white;
+}
+#djistar {
+    position: absolute;
+    font-size: 90px;
+    color: red;
+    bottom: 75px;
+    left: 55px;
+}
+#algeria {
+    height: 250px;
+    width: 450px;
+    position: relative;
+    background: white;
+}
+#alg1 {
+    height: 100%;
+    width: 225px;
+    background-color: green;
+
+}
+#algbigcircle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#algsmallcircle {
+    height: 110px;
+    width: 110px;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    left: 200px;
+}
+#algstar {
+    line-height: 0px;
+    font-size: 100px;
+    color: red;
+    position: absolute;
+    top: 120px;
+    left: 215px;
+    transform: rotate(15deg);
+
+}
+#algrect {
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    background-color: green;
+}
+#algrect1 {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 20%;
+    background-color: white;
+}
+#korea {
+    height: 250px;
+    width: 450px;
+    position: relative;
+}
+#kor1 {
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+}
+#kor3 {
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+}
+#kor2 {
+    height: 140px;
+    width: 100%;
+    background-color: red;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+#kor4 {
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    top: 60px;
+    left: 60px;
+    background-color: white;
+}
+#korstar {
+    position: absolute;
+    font-size: 140px;
+    line-height: 0px;
+    color: red;
+    top: 125px;
+    left: 67px;
+}
+#israel {
+    height: 250px;
+    width: 450px;
+    position: relative;
+    background-color: white;
+}
+#isra1 {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    background-color: blue;
+    top: 30px;
+    left: 0px;
+}
+#isra2 {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    background-color: blue;
+    background-color: blue;
+    bottom: 30px;
+    left: 0px;
+}
+#isra3 {
+    position: absolute;
+    font-size: 140px;
+    line-height: 0px;
+    color: blue;
+    top: 125px;
+    left: 167px;
+}
+
