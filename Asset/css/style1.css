@@ -1,9 +1,39 @@
+body {
+    font-style: normal;
+    font-size: 1rem;
+    background-color: #E0EBE8;
+    font-family: comic sans MS;
+    margin: 0;
+}
 header {
-    background-color: rgba(119, 90, 90, 0.6);
+    background-color: #E0EBE8;
+    padding-left: 10px;
     top: 0px;
     right: 0px;
-    width: 100%;
-    }
+    position: absolute;
+    top: 30px;
+    display: inline-block;
+}
+section {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 30px;
+    margin-top: 100px;
+    background-color: white;
+}
+article {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+}
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.date {
+    font-size: 15px;
+    font-style: italic;
+}
 nav > ul > li {
     display: inline-block;
     padding: 10px 3px;
@@ -11,28 +41,207 @@ nav > ul > li {
 }
 nav > ul > li > a {
     text-decoration: none;
+    font-weight: 500;
+
 }
-nav > ul > li:link {
-    background-color: #ffffff;
+a {
+    text-decoration: none;
 }
-nav > ul > li:visited {
-    background-color: #9a6d11;
+a:link {
+    color: #45b29a;
 }
-nav > ul > li:hover {
-    background-color: #7c8212;
+a:visited {
+    color: #45b29a;
 }
-nav > ul > li:active {
-    background-color: #983412;
+a:hover {
+    color: #21564b;
+}
+a:active {
+    color: #21564b;
 }
 #margin {
     margin-top: 70px;
     margin-left: 320px;
 }
-.div1 {
+#profile {
+    position: relative;
+    top: 200px;
+    height: 300px;
+    background-color: white;
+    background-image: url(/Asset/image/land.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #E0EBE8;
+}
+#profile1 {
+    position: relative;
     border-bottom: solid;
-    border-top: solid;
-    padding: 2px;
+    top: 200px;
+    height: 300px;
+    background-color: white;
+    background-image: url(/Asset/image/flag.svg);
+    background-repeat:repeat;
+    background-size: 50% 100%;
+    background-color: #E0EBE8;
+}
+#intro {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
+.toli {
+    position: absolute;
+    left: 200px;
+    float: left;
+    width: 7%;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 1.6666666%;
+}
+.div1 {
+    margin-top: 200px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+.div1 > h1 {
+    text-align: center;
+    margin-left: 0;
 }
 #div2 {
+    width: 100%;
     border-top: solid;
+    margin-top: 200px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+}
+#div2 img {
+    width: 13%;
+    border: 2px solid #E0EBE8;
+    left: 550px;
+}
+#div2 > div {
+    position: absolute;
+    top: 210px;
+    left: 520px;
+    text-align: center;
+} 
+#div2 h1 {
+    margin-left: 10px;
+}
+h1, div > h1 + h3 {
+    margin-left: 500px;
+    text-align: center;
+    font-weight: 100;
+    color: #45b29a;
+}
+#div3 {
+    border-top: solid;
+    margin-top: 0px;
+    height: 500px;
+    background-color: #E0EBE8;
+    position: relative;
+}
+#div3 img {
+    border-radius: 30%;
+    background-color: #3E9C87;
+    width: 4.5%;
+    border: 2px solid white;
+    left: 600px;
+}
+#div3 > div {
+    position: absolute;
+    top: 210px;
+    left: 540px;
+    text-align: center;
+} 
+#div3 table {
+    background-image: url(/Asset/image/table.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 250px;
+    height: 200px;
+}
+#div3 h1 {
+    margin-left: 10px;
+}
+#div4 {
+    border-top: solid;
+    border-bottom: solid;
+    margin-top: 0px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+}
+#div4 table {
+    width: 40%;
+    margin: 0 auto;
+}
+#div4 h1 {
+    margin-left: 10px;
+}
+#div5 {
+    margin-top: 0px;
+    height: 150px;
+    position: relative;
+}
+#div5 p {
+    position: absolute;
+    bottom: 0px;
+    left: 45%;
+}
+#div5 table{
+    position: absolute;
+    font-size: 18px;
+    width: 40%;
+    left: 30%;
+    text-align: center;
+}
+table {
+    width: 100%;
+    align-items: center;
+}
+#clear + table {
+    position: relative;
+}
+figure {
+    float: left;
+    width: 27.45%;
+    margin: 2.1666666666666%;
+    background-color: white;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-radius: 2%;
+}
+figure img {
+    border-radius: 2%;
+}
+#clear {
+    clear: left;
+    margin-top: 250px;
+}
+#tactoe {
+    position: relative;
+    height: 608px;
+    width: 608px;
+    left: 50%;
+    margin-left: -300px;
+}
+#tac {
+    position: absolute;
+    height: 33.33%;
+    width: 100%;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    top: 50%;
+    margin-top: -100px;
+}
+#toe {
+    position: absolute;
+    height: 100%;
+    width: 33.33%;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    left: 50%;
+    margin-left: -100px;
 }

@@ -1,7 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+
 body {
     background-color:skyblue;
     margin: 10px;
@@ -52,26 +49,25 @@ body {
 #ethiopia {
     height: 250px;
     width: 450px;
-    background-color: purple;
 }
 #green {
     height: 33.33%;
-    background-color: green;
+    background-color: #078930;
 }
 #yellow {
     height: 33.33%;
-    background-color: yellow;
+    background-color: #FCDD09;
     position: relative;
 }
 #red {
     height: 33.33%;
-    background-color: red;
+    background-color: #DA121A;
 }
 #circle {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: #0F47AF;
     position: absolute;
     top: -33px;
     left:150px;
@@ -84,47 +80,47 @@ body {
     position: absolute;
     top: -33px;
     left:150px;
-    color: gold;
+    color: #FCDD09;
 }
-#div1 {
+#div11 {
     position: absolute;
     top: 71px;
     left: 117px;
     font-size: 40px;
     transform: rotate(110deg);
-    color: gold;
+    color: #FCDD09;
 }
-#div2 {
+#div22 {
     position: absolute;
-    top: 71px;
+    top: 70px;
     left: 24px;
     font-size: 40px;
     transform: rotate(-110deg);
-    color: gold;
+    color: #FCDD09;
 }
-#div3 {
+#div33 {
     position: absolute;
-    top: 94px;
+    top: 97px;
     left: 71px;
     font-size: 40px;
     transform: rotate(0deg);
-    color: gold;
+    color: #FCDD09;
 }
-#div4 {
+#div44 {
     position: absolute;
     top: 23px;
     left: 45px;
     font-size: 40px;
     transform: rotate(140deg);
-    color: gold;
+    color: #FCDD09;
 }
-#div5 {
+#div55 {
     position: absolute;
     top: 23px;
-    left: 97px;
+    left: 96px;
     font-size: 40px;
     transform: rotate(-140deg);
-    color: gold;
+    color: #FCDD09;
 }
 #tanzania {
     height: 250px;
@@ -137,10 +133,10 @@ body {
     border-right: 225px solid;
     border-top: 125px solid;
     border-bottom: 125px solid;
-    border-top-color: green;
-    border-bottom-color: blue;
-    border-left-color: green;
-    border-right-color: blue;
+    border-top-color: #1EB53A;
+    border-bottom-color: #00A3DD;
+    border-left-color: #1EB53A;
+    border-right-color: #00A3DD;
 
 }
 #black {
@@ -159,7 +155,7 @@ body {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background-color: red;
+    background-color: #BC002D;
     position: absolute;
     top: 50px;
     left: 150px;
@@ -167,7 +163,7 @@ body {
 #turkey {
     height: 250px;
     width: 450px;
-    background-color: red;
+    background-color: #E30A17;
     position: relative;
 }
 #largecircle {
@@ -183,7 +179,7 @@ body {
     height: 110px;
     width: 110px;
     border-radius: 50%;
-    background-color: red;
+    background-color: #E30A17;
     position: absolute;
     top: 70px;
     left: 145px;
@@ -205,7 +201,7 @@ body {
 }
 #kugreen {
     height: 33.33%;
-    background-color: green;
+    background-color: #007A3D;
 }
 #kuwhite {
     height: 33.33%;
@@ -213,7 +209,7 @@ body {
 }
 #kured {
     height: 33.33%;
-    background-color: red;
+    background-color: #CE1126;
 }
 #kublack {
     height: 83px;
@@ -226,8 +222,8 @@ body {
     border-right: 0px solid;
     border-top: 83px solid;
     border-bottom: 83px solid;
-    border-top-color: green;
-    border-bottom-color: red;
+    border-top-color: #007A3D;
+    border-bottom-color: #CE1126;
     border-left-color: black;
 }
 #georgia {
@@ -238,7 +234,7 @@ body {
 }
 #georect1 {
     position: absolute;
-    background-color: red;
+    background-color: #FF0000;
     height: 56px;
     width: 450px;
     top: 97px;
@@ -387,7 +383,7 @@ body {
 #africarep1 {
     height: 25%;
     width: 100%;
-    background-color: blue;
+    background-color: #003082;
 }
 #africarep2 {
     height: 25%;
@@ -397,12 +393,12 @@ body {
 #africarep3 {
     height: 25%;
     width: 100%;
-    background-color: green;
+    background-color: #289728;
 }
 #africarep4 {
     height: 25%;
     width: 100%;
-    background-color: yellow;
+    background-color: #FFCE00;
 }
 #africarep5 {
     position: absolute;
@@ -410,13 +406,13 @@ body {
     width: 62px;
     top: 0px;
     left: 194px;
-    background-color: red;
+    background-color: #D21034;
 }
 #africarep6 {
     position: absolute;
     line-height: 60px;
     font-size: 70px;
-    color: yellow;
+    color: #FFCE00;
     top: 0px;
     left: 40px;
 }
@@ -427,11 +423,11 @@ body {
 }
 #dji1 {
     height: 50%;
-    background-color: blue;
+    background-color: #6AB2E7;
 }
 #dji2 {
     height: 50%;
-    background-color: green;
+    background-color: #12AD2B;
 }
 #dji3 {
     height: 0px;
@@ -439,19 +435,18 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: blue;
     border-left: 225px solid;
     border-right: 0px solid;
     border-top: 125px solid;
     border-bottom: 125px solid;
-    border-top-color: blue;
-    border-bottom-color: green;
+    border-top-color: #6AB2E7;
+    border-bottom-color: #12AD2B;
     border-left-color: white;
 }
 #djistar {
     position: absolute;
     font-size: 90px;
-    color: red;
+    color: #D7141A;
     bottom: 75px;
     left: 55px;
 }
@@ -464,14 +459,14 @@ body {
 #alg1 {
     height: 100%;
     width: 225px;
-    background-color: green;
+    background-color: #006233;
 
 }
 #algbigcircle {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background-color: red;
+    background-color: #D21034;
     position: absolute;
     top: 50px;
     left: 150px;
@@ -487,7 +482,7 @@ body {
 #algstar {
     line-height: 0px;
     font-size: 100px;
-    color: red;
+    color: #D21034;
     position: absolute;
     top: 120px;
     left: 215px;
@@ -516,17 +511,17 @@ body {
 #kor1 {
     height: 50px;
     width: 100%;
-    background-color: blue;
+    background-color: #024FA2;
 }
 #kor3 {
     height: 50px;
     width: 100%;
-    background-color: blue;
+    background-color: #024FA2;
 }
 #kor2 {
     height: 140px;
     width: 100%;
-    background-color: red;
+    background-color: #ED1C27;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
 }
@@ -543,7 +538,7 @@ body {
     position: absolute;
     font-size: 140px;
     line-height: 0px;
-    color: red;
+    color: #ED1C27;
     top: 125px;
     left: 67px;
 }
@@ -557,7 +552,7 @@ body {
     position: absolute;
     height: 40px;
     width: 100%;
-    background-color: blue;
+    background-color: #0038B8;
     top: 30px;
     left: 0px;
 }
@@ -565,8 +560,7 @@ body {
     position: absolute;
     height: 40px;
     width: 100%;
-    background-color: blue;
-    background-color: blue;
+    background-color: #0038B8;
     bottom: 30px;
     left: 0px;
 }
@@ -574,8 +568,29 @@ body {
     position: absolute;
     font-size: 140px;
     line-height: 0px;
-    color: blue;
+    color: #0038B8;
     top: 125px;
     left: 167px;
+}
+#flag {
+    border-radius: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    left: 50%;
+    background-color: white;
+
+}
+#flag > div {
+    flex: 1;
+    margin-right: 112px;
+    margin-left: 112px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    border-radius: 1%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    background-color: #FBF9F4;
 }
 
