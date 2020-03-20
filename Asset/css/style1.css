@@ -103,6 +103,7 @@ a:active {
     margin-top: 200px;
     padding-bottom: 50px;
     background-color: white;
+    border-top: solid;
 }
 .div1 > h1 {
     text-align: center;
@@ -209,7 +210,7 @@ figure {
     float: left;
     width: 27.45%;
     margin: 2.1666666666666%;
-    background-color: white;
+    background-color: #FBF9F4;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     border-radius: 2%;
 }
@@ -218,7 +219,54 @@ figure img {
 }
 #clear {
     clear: left;
-    margin-top: 250px;
+    margin-top: 200px;
+}
+#clear1 {
+    clear: left;
+}
+input, textarea, select {
+    width: 100%;
+    border: 2px solid #3E9C87;
+    border-radius: 4px;
+    margin: 2px 0;
+    padding: 6px;
+    outline: none;
+    box-sizing: border-box;
+    transition: .3s;
+}
+input:focus {
+    border-color: #3E9C87;
+    box-shadow: 0 0 8px 0 #3E9C87;
+}
+input[type=submit] {
+    background-color: #3E9C87;
+    color: white;
+}
+input[type=submit]:hover {
+    border-color: #3E9C87;
+    box-shadow: 0 0 8px 0 #3E9C87;
+}
+#form {
+    margin-left: 80px;
+}
+#questions {
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+
+}
+#que1, #que2, #que3 {
+    height: 50px;
+    width: 500px;
+    font-size: 30px;
+    background-color: #3E9C87;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+#que1 > a, #que2 > a, #que3 > a {
+    color: white;
 }
 #tactoe {
     position: relative;
