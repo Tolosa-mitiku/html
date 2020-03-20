@@ -48,4 +48,43 @@
         border-radius: 2%;
         width: 100%;
     }
+    #clear + table{
+        padding-top: 110px;
+        margin-bottom: 20px;
+    }
+    #box {
+        padding-top: 100px;
+        width: 50%;
+    }
+    #que1, #que2, #que3 {
+        height: 20px;
+        font-size: 1rem;
+    }
+    #tactoe {
+        margin-top: 90px;
+        position: relative;
+        height: 304px;
+        width: 304px;
+        left: 50%;
+        margin-left: -150px;
+        background-color: white;
+    }
+    #tac {
+        position: absolute;
+        height: 33.33%;
+        width: 100%;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        top: 50%;
+        margin-top: -50px;
+    }
+    #toe {
+        position: absolute;
+        height: 100%;
+        width: 33.33%;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        left: 50%;
+        margin-left: -50px;
+    }
 }
