@@ -8,11 +8,11 @@ body {
 header {
     background-color: #E0EBE8;
     padding-left: 10px;
-    top: 0px;
     right: 0px;
     position: absolute;
     top: 30px;
-    display: inline-block;
+    width: 100%;
+    text-align: right;
 }
 section {
     position: relative;
@@ -22,16 +22,16 @@ section {
     background-color: white;
 }
 article {
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 25px;
     text-align: justify;
 }
 .title {
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: bold;
 }
 .date {
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-style: italic;
 }
 nav > ul > li {
@@ -72,6 +72,7 @@ a:active {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: #E0EBE8;
+    border-color: #3E9C87;
 }
 #profile1 {
     position: relative;
@@ -83,29 +84,31 @@ a:active {
     background-repeat:repeat;
     background-size: 50% 100%;
     background-color: #E0EBE8;
+    border-color: #3E9C87;
 }
 #intro {
     position: absolute;
-    top: 100px;
-    left: 100px;
-    z-index: 1;
+    top: 130px;
+    width: 100%;
+    text-align: center;
+    background-color: #E0EBE8;
 }
 .toli {
     position: absolute;
-    left: 200px;
-    float: left;
+    left: 15%;
+    top: 30px;
     width: 7%;
     border-radius: 50%;
     border: 2px solid white;
-    margin: 1.6666666%;
 }
-.div1 {
+#div1 {
     margin-top: 200px;
     padding-bottom: 50px;
     background-color: white;
     border-top: solid;
+    border-color: #3E9C87;
 }
-.div1 > h1 {
+#div1 > h1 {
     text-align: center;
     margin-left: 0;
 }
@@ -116,32 +119,36 @@ a:active {
     height: 500px;
     background-color: white;
     position: relative;
+    border-color: #3E9C87;
 }
 #div2 img {
     width: 13%;
     border: 2px solid #E0EBE8;
-    left: 550px;
+    left: 43%;
 }
 #div2 > div {
+    width: 50%;
     position: absolute;
     top: 210px;
-    left: 520px;
+    left: 25%;
     text-align: center;
 } 
 #div2 h1 {
     margin-left: 10px;
 }
 h1, div > h1 + h3 {
-    margin-left: 500px;
+    margin: 0 auto;
     text-align: center;
     font-weight: 100;
     color: #45b29a;
+
 }
 #div3 {
     border-top: solid;
     margin-top: 0px;
     height: 500px;
     background-color: #E0EBE8;
+    border-color: #3E9C87;
     position: relative;
 }
 #div3 img {
@@ -149,30 +156,33 @@ h1, div > h1 + h3 {
     background-color: #3E9C87;
     width: 4.5%;
     border: 2px solid white;
-    left: 600px;
+    left: 48%;
 }
 #div3 > div {
+    width: 20%;
     position: absolute;
     top: 210px;
-    left: 540px;
+    left: 25%;
     text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
 } 
 #div3 table {
     background-image: url(/Asset/image/table.svg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 250px;
+    width: 100%;
     height: 200px;
 }
 #div3 h1 {
-    margin-left: 10px;
+    text-align: center;
 }
 #div4 {
     border-top: solid;
-    border-bottom: solid;
     margin-top: 0px;
     height: 500px;
     background-color: white;
+    border-color: #3E9C87;
     position: relative;
 }
 #div4 table {
@@ -186,15 +196,19 @@ h1, div > h1 + h3 {
     margin-top: 0px;
     height: 150px;
     position: relative;
+    border-top: solid;
+    border-color: #3E9C87;
 }
 #div5 p {
     position: absolute;
     bottom: 0px;
-    left: 45%;
+    width: 20%;
+    left: 40%;
+    text-align: center;
 }
 #div5 table{
     position: absolute;
-    font-size: 18px;
+    font-size: 1.125rem;
     width: 40%;
     left: 30%;
     text-align: center;
@@ -208,14 +222,15 @@ table {
 }
 figure {
     float: left;
-    width: 27.45%;
-    margin: 2.1666666666666%;
+    width: 30%;
+    margin: 1.666666666666%;
     background-color: #FBF9F4;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     border-radius: 2%;
 }
 figure img {
     border-radius: 2%;
+    width: 100%;
 }
 #clear {
     clear: left;
@@ -247,19 +262,35 @@ input[type=submit]:hover {
     box-shadow: 0 0 8px 0 #3E9C87;
 }
 #form {
-    margin-left: 80px;
+    width: 90%;
+    left: 5%;
+    margin: 0 auto;
+    display: flex;
+}
+#form > div {
+    flex: 1;
 }
 #questions {
     height: 250px;
     width: 100%;
     background-color: white;
     margin-top: 10px;
-
+}
+#box {
+    padding-top: 10px;
+    width: 30%;
+    margin: 0 auto;
+}
+#box2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 70%;
+    margin: 0 auto;
 }
 #que1, #que2, #que3 {
     height: 50px;
-    width: 500px;
-    font-size: 30px;
+    width: 100%;
+    font-size: 1.875rem;
     background-color: #3E9C87;
     margin: 0 auto;
     margin-top: 20px;

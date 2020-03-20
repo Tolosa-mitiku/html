@@ -7,6 +7,7 @@
     <title>Tolosa M.</title>
     <link rel="icon" href="Asset\image\user.png">
     <link rel="stylesheet" href="Asset\css\style1.css">
+    <link rel="stylesheet" href="Asset\css\media.css">
 </head>
 <body>
     <header>
@@ -38,66 +39,64 @@
     <div id="profile">
     </div>
     <div id="clear1"></div>
-    <div class="div1">
+    <div id="div1">
         <h1>Leave your comment here!</h1>
-        <table id="form">
-            <tr>
-                <td>
-                    <form method="POST" action="mailto:se.tolosa.mitiku@gmail.com" enctype="utf-8">
-                        <table>
-                            <tr>
-                        <td><label for="fname">First Name: </label></td>
-                        <td><input type="text" name="fname" id="fname" placeholder="Your first name" required pattern="[A-Za-z]{4,10}" title="4 to 10 lowercase letters"></td>
-                            </tr>
-                            <tr>
-                        <td><label for="lname">Last Name: </label></td>
-                        <td><input type="text" name="lname" id="lname" placeholder="Your last name"required pattern="[A-Za-z]{4,10}" title="4 to 10 lowercase letters"></td>
-                            </tr>
-                            <tr>
-                        <td><label for="email">Email: </label></td>
-                        <td><input type="email" name="email" id="email" placeholder="Your email"required></td>
-                            </tr>
-                            <tr>
-                        <td><label for="password">Password: </label></td>
-                        <td><input type="password" name="pswrd" id="pswrd" required placeholder="Your password" pattern="[A-Za-z\d$]{8,15}" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" title="Enter a password with minimmum length of 8."></td>
-                            </tr>
-                            <tr>
-                        <td><label for="phone">phone number: </label></td>
-                        <td><input type="tel" name="tel" id="phone" placeholder="Your phone number" required></td>
-                            </tr>
-                            <tr>
-                        <td><label for="age">Age: </label></td>
-                        <td><input type="number" name="age" id="age" min="1" max="120" step="1" placeholder="Your age" required></td>
-                            </tr>
-                            <tr>
-                        <td>Continent: </td>
-                        <td><select name="country" id="">
-                        <option selected value="Asia">Asia</option>
-                        <option value="Africa">Africa</option value="Africa">
-                        <option value="America">america</option>
-                    </select></td>
-                            </tr>
-                            <tr>
-                        <td><label for="color">Frequently observed color: </label></td>
-                        <td><input type="color" name="color" id="color" required></td>
-                            </tr>
-                            <tr>
-                        <td><label for="detail">what do you say???</label><br></td>
-                        <td><textarea name="detail" id="detail" cols="30" rows="10" placeholder="Your comment" required></textarea></td>
-                            </tr>
-                            <tr>
-                        <td colspan="2"><input type="submit" name="submit"></td>
-                            </tr>
-                        </table>
-                    </form> 
-                </td>
-                <td>
-                    <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20institue%20of%20techology&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://periodic-table-of-elements.net">periodic desk</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-                </td>
-            </tr>
-        </table>
+        <div id="form">
+            <div>
+                <form method="POST" action="mailto:se.tolosa.mitiku@gmail.com" enctype="utf-8">
+                    <table>
+                        <tr>
+                    <td><label for="fname">First Name: </label></td>
+                    <td><input type="text" name="fname" id="fname" placeholder="Your first name" required pattern="[A-Za-z]{4,10}" title="4 to 10 lowercase letters"></td>
+                        </tr>
+                        <tr>
+                    <td><label for="lname">Last Name: </label></td>
+                    <td><input type="text" name="lname" id="lname" placeholder="Your last name"required pattern="[A-Za-z]{4,10}" title="4 to 10 lowercase letters"></td>
+                        </tr>
+                        <tr>
+                    <td><label for="email">Email: </label></td>
+                    <td><input type="email" name="email" id="email" placeholder="Your email"required></td>
+                        </tr>
+                        <tr>
+                    <td><label for="password">Password: </label></td>
+                    <td><input type="password" name="pswrd" id="pswrd" required placeholder="Your password" pattern="[A-Za-z\d$]{8,15}" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" title="Enter a password with minimmum length of 8."></td>
+                        </tr>
+                        <tr>
+                    <td><label for="phone">phone number: </label></td>
+                    <td><input type="tel" name="tel" id="phone" placeholder="Your phone number" required></td>
+                        </tr>
+                        <tr>
+                    <td><label for="age">Age: </label></td>
+                    <td><input type="number" name="age" id="age" min="1" max="120" step="1" placeholder="Your age" required></td>
+                        </tr>
+                        <tr>
+                    <td>Continent: </td>
+                    <td><select name="country" id="">
+                    <option selected value="Asia">Asia</option>
+                    <option value="Africa">Africa</option value="Africa">
+                    <option value="America">america</option>
+                </select></td>
+                        </tr>
+                        <tr>
+                    <td><label for="color">Frequently observed color: </label></td>
+                    <td><input type="color" name="color" id="color" required></td>
+                        </tr>
+                        <tr>
+                    <td><label for="detail">what do you say???</label><br></td>
+                    <td><textarea name="detail" id="detail" cols="30" rows="10" placeholder="Your comment" required></textarea></td>
+                        </tr>
+                        <tr>
+                    <td colspan="2"><input type="submit" name="submit"></td>
+                        </tr>
+                    </table>
+                </form> 
+            </td>
+            </div>
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20institue%20of%20techology&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://periodic-table-of-elements.net">periodic desk</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+            
+        </div>
     </div>
-    <div id="div5" style="border-top: 3px solid;">
+    <div id="div5">
         <table>
             <tr>
                 <td>
