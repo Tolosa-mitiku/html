@@ -74,7 +74,9 @@ div + div + div h2 + p em {
 /*You may need to research some other selectors and properties*/
 
 /*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
-
+input[type=checkbox]:checked {
+    margin-left: 50px;
+}
 
 /* Make the <label> elements all UPPERCASE without changing the HTML(definitely look this one up*/
 label {
@@ -82,7 +84,10 @@ label {
 }
 
 /*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
-
+#special:first-letter {
+    color: green;
+    font-size: 100px;
+}
 
 /*Make the <h1> element's color change to blue when hovered over */
 h1:hover {
