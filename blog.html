@@ -40,7 +40,7 @@
     <div id="clear"></div>
     <div id="content">
         <section>
-            <p class="title">is using relative sizes, necessary to create a responsive webpage?</p>
+            <p class="title">Is using relative sizes, necessary to create a responsive webpage?</p>
             <article>
                 <p>
                     I agree with the opinion that relative sizes should be used necessarily when having in mind creating a respnsive and consistent website.
@@ -70,14 +70,22 @@
             <p class="date">March 13 , 2020 : 3:00AM</p>
         </section>
         <section>
-            <p class="title">My second post</p>
+            <p class="title">How do browser's interprete the meaurements given to them?</p>
             <article>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora vitae, ducimus itaque a tenetur repellendus, ex illum consequuntur rem, neque exercitationem vel veritatis!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora vitae, ducimus itaque a tenetur repellendus, ex illum consequuntur rem, neque exercitationem vel veritatis!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora vitae, ducimus itaque a tenetur repellendus, ex illum consequuntur rem, neque exercitationem vel veritatis!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora vitae, ducimus itaque a tenetur repellendus, ex illum consequuntur rem, neque exercitationem vel veritatis!
-                
+                    Well Webpage's are not pictures or ready made files that can be downloaded and displayed, but rather they are instructions that tell our browsers to draw this picture for us to see.
+                    As you can guess this is not that easy after all who would paint websites in matter of seconds huh? So what the browser does is first create a DOM Tree (Document Object Model Tree) from the html file it gets.
+                    This DOM tree is a data structure in which there are nodes pointing to other nodes and etc. This nodes are html tags and this tree structur is an ideal place specially for files with lots of nested tags.
+                    And again our css file is there wondering how to apply all the stylings written in it to individual tags without any error. Again our browser stores this styling code in a tree structure. A different one. This tree structure is called CSSOM tree(cascading style sheet object model tree)
+                    here also every styling attribute specific to a tag in the html file are stored as nodes. So when both tree are constructed our browser now merges these trees which now most probably is very easy for them to find one another.
+                    but when All these things happen there are defaults and standards that the browser always uses. One and important example is the <em>rem</em>.<em>rem</em> stands for <em>root element</em> is a standard that our browser uses when sizing objects.
+                    It is more of a relative measurement since it is the default font size of the browser which is usually 16px.
+                    well if lets say our browsers default font size is 16px, then how many rem would a 200px size be?
+                </br>1rem = 16px
+                </br>  X  =  200px
+                </br> which is equal to 12.5 rem.
+                so based on this conversion mechanism and many other like precent to pixel and viceversa, percent to rem and vice versa and many other conversions, our browser understands them and draw them for us on our screen.
+                <p>more on this: <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units" target="_blank">link</a></p>
                 
                 </p>
 
@@ -86,16 +94,33 @@
             <p class="date">March 13 , 2020 : 3:00AM</p>
         </section>
         <section>
-            <p class="title">My third post</p>
+            <p class="title">What are the specific changes brought to us by the new version of css, the css3?</p>
             <article>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora vitae, ducimus itaque a tenetur repellendus, ex illum consequuntur rem, neque exercitationem vel veritatis!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora vitae, ducimus itaque a tenetur repellendus, ex illum consequuntur rem, neque exercitationem vel veritatis!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora vitae, ducimus itaque a tenetur repellendus, ex illum consequuntur rem, neque exercitationem vel veritatis!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora vitae, ducimus itaque a tenetur repellendus, ex illum consequuntur rem, neque exercitationem vel veritatis!
-                
-                
+                    <h3>Text Shadow</h3> 
+                    Text shadow property allows to add drop shadows to the text on a webpage. This is done by image or duplicating text element and then positioning it properly.
+                    <h3>Box Shadow</h3> 
+                    It allows to create a drop shadow for an element. Most of the time this effect is done by using repeated image around the element, but because of box shadow that is done with a single line of code.
+                    <h3>Border Images</h3> 
+                    It is the ability to swap out a border with an image. It allows to specify an image to display instead of a plain solid colored border.
+                    <h3>Rounded Corners</h3>
+                    Before css3 a lot of code was required to create a rounded corner. Give attention on height, width and positioning is very boring. CSS3 introduces border radius property which gives the same rounded corner effect.
+                    <h3>Selectors</h3>
+                    CSS3 introduce some new selectors. By using these selectors it is possible to choose DOM elements based on their attributes, so it might not necessary to specify classes and IDs for every element. Instead of that utilizing the attribute field to style them.
+                    <h3>Web fonts</h3>
+                    CSS3 introduces embedding any custom font on a webpage. Web pages render only fonts that are supported by the browser or client machine.
+                    <h3>Multicolumn Layout</h3>
+                    Most of webpages are made by columns or boxes and these boxes are adjusted by designers. Multicolumn layout simplify this problem and allow to specify only the number of columns and then they will be formed.
+                    
+                    <h3>Transform</h3>
+                    It enables to rotate web elements on a webpage. Before CSS3 JavaScript was required to rotate an element and they consume more resources, so CSS3 simplify this by introduce transform attribute.
+                    
+                    <h3>RGBA</h3>
+                    RGB is used to set colors for different elements, but now CSS3 introduces a modification and added opacity manipulation to this property. RGBA stands for Red Green Blue Alpha Channels.
+                    <h3>Linear and radial gradients</h3>
+                    In css3 we can add color gradients which are so amazing and very useful.
                 </p>
+                <p>more on this: <a href="https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1" target="_blank">Link</a></p>
 
 
             </article>
